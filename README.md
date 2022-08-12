@@ -16,7 +16,8 @@ Operating System Travel Tool
   - [ ] Module Package (add in Pypi)
   - [ ] Config Reader
   - [ ] Test
-  - ...
+  - [ ] Run in Live Mode after install OS (chroot , mount)
+  - [ ] Run in OS
 
 - [ ] install packages
   - [ ] pacman
@@ -61,6 +62,13 @@ Operating System Travel Tool
 sudo yay -S oravel
 ```
 
+install From Source
+
+```shell
+git clone https://github.com/MahanBi/Oravel.git
+cd Oravel
+make .
+```
 
 #### License
 The project is made available under the MIT license. See the LICENSE file for more information.
