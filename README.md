@@ -3,10 +3,21 @@ Operating System Travel Tool
 
 ## Table of Contents
 - [Installation](#installation)
-
+- [TODO](#todo)
+- [License](#license)
 
 
 ### TODO
+- [ ] Main
+  - [ ] config module (~/.config/Oravel/oravel.py)
+  - [ ] Makefile
+  - [ ] Async Process
+  - [ ] Add Project to Package Managers
+  - [ ] Module Package (add in Pypi)
+  - [ ] Config Reader
+  - [ ] Test
+  - ...
+
 - [ ] install packages
   - [ ] pacman
   - [ ] yay
@@ -22,20 +33,28 @@ Operating System Travel Tool
   - [ ] rc
   - [ ] .conf
   - ...
-- [ ] install WM
+- [ ] install WM: X11, Wayland
   - [ ] i3
   - [ ] qtile
   - [ ] gnome
   - [ ] kde
   - ...
 - [ ] input, outputs
-  - [ ] wireless
+  - [ ] wifi
   - [ ] Audio
 - [ ] handel Services
   - [ ] Systemd
   - [ ] init
+- [ ] setup user
+- [ ] Driver
+  - [ ] GPU: Nvidia, Intel
+  - [ ] CPU: AMD,...
+  - [ ] Sensors
+  - [ ] Fancontrol
+- [ ] Auto Update
+- [ ] Grub Optoion
 
-### Installation {#installation}
+### Installation
 
 ```shell
 # Arch
