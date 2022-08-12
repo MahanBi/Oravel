@@ -1,13 +1,16 @@
 # Oravel
+
 Operating System Travel Tool
 
 ## Table of Contents
+
 - [Installation](#installation)
 - [TODO](#todo)
 - [License](#license)
 
 
 ### TODO
+
 - [ ] Main
   - [ ] config module (~/.config/Oravel/oravel.py)
   - [ ] Makefile
@@ -29,30 +32,37 @@ Operating System Travel Tool
   - [ ] dpkg
   - [ ] zypper
   - [ ] portage
+
 - [ ] handel package config files
   - [ ] yaml
   - [ ] rc
   - [ ] .conf
   - ...
+
 - [ ] install WM: X11, Wayland
   - [ ] i3
   - [ ] qtile
   - [ ] gnome
   - [ ] kde
   - ...
+
 - [ ] input, outputs
   - [ ] wifi
   - [ ] Audio
+
 - [ ] handel Services
   - [ ] Systemd
   - [ ] init
-- [ ] setup user
+  - [ ] setup user
+
 - [ ] Driver
   - [ ] GPU: Nvidia, Intel
   - [ ] CPU: AMD,...
   - [ ] Sensors
   - [ ] Fancontrol
+
 - [ ] Auto Update
+
 - [ ] Grub Optoion
 
 ### Installation
