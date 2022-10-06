@@ -1,4 +1,3 @@
-
 class Network:
     class Wireless:
         ...
