@@ -9,6 +9,7 @@ def main():
     args = parser.parse_args()
     if args.run:
         Initializer()
+
     elif args.version:
         print("0.0.0")
 
