@@ -1,11 +1,8 @@
-
-
 class Services:
-    def __init__(self):
-        ...
+    class Enable:
+        def __init__(self, *args):
+            self.services = args
 
-    class Systemd:
-        ...
-
-    class Init:
-        ...
+    class Disable:
+        def __init__(self, *args):
+            self.services = args

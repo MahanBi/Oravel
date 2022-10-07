@@ -1,8 +1,4 @@
-
-
 class Pkg:
-    def __init__(self):
-        ...
 
     def __or__(self, other):
         ...
@@ -22,13 +18,13 @@ class Pkg:
     def __repr__(self):
         ...
 
-    class Packages:
-        def __init__(self, *package: str) -> None:
-            self.packages: tuple = package
 
-        def __iter__(self):
-            ...
+class Packages(Pkg):
+    def __init__(self, *package: str) -> None:
+        self.packages: tuple = package
 
-        def __next__(self):
-            ...
+    def __iter__(self):
+        ...
 
+    def __next__(self):
+        ...

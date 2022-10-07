@@ -4,9 +4,10 @@ from main import Initializer
 
 def main():
     parser = ArgumentParser()
-    run = parser.add_argument("run", choices=['test', 'build'], help='run Oravel')
+    parser.add_argument("run", choices=['test', 'build'], help='run Oravel')
     parser.add_argument("--version", action="store_true", help='Oravel Version')
     args = parser.parse_args()
+
     if args.run:
         Initializer()
 
