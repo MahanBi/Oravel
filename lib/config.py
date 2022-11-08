@@ -1,28 +1,21 @@
-from . import Pkg, Xserver, User, i3, qtile, xfce
+from bootloader import GRUB
+from network import Network
+from pkg import Install
 
-Main = (
-    Pkg.Packages(
-        "vim",
-        "neovim",
-        "neofetch",
-    ),
-    Xserver.WindowManager(
-        i3,
-        xfce,
-        qtile
-    ).x11,  # or wayland .wayland
-    Xserver.DisplayManager(
-        "sddm",
-        "emptty"
-    ),
-    Xserver.Drivers(
-        "amdgpu",
-        "nvidia"
+main = {
+
+    "bootloader": GRUB(
+        settings={
+
+        },
     ),
 
+    "network": Network(
 
-)
+    ),
 
-Config = (
+    "pkg": Install(
 
-)
+    ),
+
+}
